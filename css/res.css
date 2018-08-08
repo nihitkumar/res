@@ -1,0 +1,61 @@
+body{
+    height: 100%;
+
+}
+ video{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50%;
+    margin-left: -50%;
+     z-index: 1;
+}
+.main{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 80% ;
+        margin:0 auto;
+    margin-top:100px;
+    padding: 20px
+}
+
+.main h1{
+    background-color: yellow;
+    opacity: 0.8;
+    border-radius:15px;
+    padding:20px;
+    
+        font-family: 'Cantarell', sans-serif;
+    
+    
+}
+
+.main p{
+    padding: 20px;
+    background-color: grey;
+    opacity: 0.8;
+    font-size:2vw;
+    font-family: 'Courgette', cursive;
+    
+        border-radius:15px;
+}
+.main a{
+    text-decoration: none;
+    font-size: 2vw;
+    border :1px solid hotpink;
+    color: hotpink;
+    font-family: 'Cantarell', sans-serif;
+   
+}
+.main a:hover{
+    background-color: hotpink;
+    color:white;
+}
+.main i{
+    position: relative;
+    top:10px;
+}
+
+    
+}
